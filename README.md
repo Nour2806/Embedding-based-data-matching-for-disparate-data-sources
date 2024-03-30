@@ -22,10 +22,7 @@ In our experiments, we exploited the potential of five dataset categories, as de
 
 
 ***Effectiveness & Stability***
-<<<<<<< HEAD
 
-=======
->>>>>>> 7ea8d70ea83b46ac4ca6fa90922be7159db575a3
 A detailed examination of algorithmic stability was carried out through a random selection of 10 unique datasets, which were then tested in several configurations of different hyperparameter values in table 2. As shown by [19], random walks have an impact on graphs projection and may affect performance. We focused on three important hyperparameters that influence the generation of random walks in our algorithm (walk length, walk Strategy and number of sentences) and then applied a grid-search on their values, resulting in 12 configurations. To ensure a complete and reliable evaluation, each configuration was run 10 times.
 
 To sum up, our efficiency experiments represent a total of 35616 runs: 371 data sets x 96 hyperparameter configurations. 
